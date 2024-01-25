@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(5, 1, 30);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('743487.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body {
+    color: rgb(249, 247, 247); /* Set the text color */
+    text-stroke: 2px black; /* Set the border color and width */
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: rgb(2, 1, 43);
+    z-index: 1000; /* Ensure the navigation bar is above other elements */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: rgb(200, 200, 243);
+    font-size: 1.1rem;
+}
+main hr{
+    border:0;
+    background-color: rgb(78, 76, 238);
+    height: 1.5px;
+    margin: 40px 84px;
+}
+
+.left {
+    font-size: 1.7rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.firstSection>div {
+    width: 40%;
+}
+
+.leftSection {
+    ;
+    font-size: 2rem;
+    margin: 20vh 0;
+    position: relative;
+}
+#element {
+    position: relative;
+}
+
+.codechef-rating {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 25px; /* Adjust the font size as needed */
+    margin-bottom: 10px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: 1px; /* Add margin-bottom for spacing */
+}
+.codechef-rating img{
+    width: 3pc;
+    height: auto;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    position: absolute;
+    top: 60%;
+    left: 0;
+    margin-top: 1px;
+
+}
+.socials a {
+    text-decoration: none;
+}
+
+.socials img {
+    height: 3pc;
+    width: auto; /* Adjust the height of the images */
+    margin-right: 10px; /* Add margin between images */
+}
+.rightSection img {
+    width: 100%;
+    margin: 50px 0;
+}
+.image-container {
+    overflow: hidden;
+    position: relative;
+    display: none;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+#prevBtn,
+#nextBtn {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+}
+
+#prevBtn {
+    left: 10px;
+}
+
+#nextBtn {
+    right: 10px;
+}
+.purple {
+    color: rgb(148, 59, 231);
+}
+.text-gray{
+    color: rgb(176, 175, 175);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.hobbies-container {
+    display: flex;
+    overflow-x: auto;
+    margin-top: auto; /* Adjust the margin as needed */
+    margin-left: 23vw; /* Add left margin */
+}
+
+.hobby {
+    flex: 0 0 auto;
+    width: 300px; /* Adjust the width of each hobby section */
+    padding: 10px;
+    box-sizing: border-box;
+    margin-right: 5vw; /* Add space between hobby sections */
+}
+
+.hobby img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Add space between image and text */
+}
+
+.secondSection h1{
+    font-size: 3rem;
+}
+.secondSection h1,
+.secondSection span {
+    margin: 0; /* Remove any default margin on h1 and span inside secondSection */
+}
+.thirdSection {
+    max-width: 80vw;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white; /* Border properties: width, style, color */
+    background-color: rgba(0, 0, 0, 0.5); /* Background color with opacity */
+}
+.thirdSection h1{
+    font-size: 3rem;
+}
+.fourthSection {
+    max-width: 80vw;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.fourthSection h1{
+    font-size: 3rem;
+}
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #060533;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+a {
+    color: bisque; /* Replace "your-desired-color" with the color you want */
+}
+
+/* Change the color of anchor text when hovered */
+a:hover {
+    color: aqua;
+    font-size: 1.511rem; /* Replace "your-hover-color" with the color you want on hover */
+}

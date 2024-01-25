@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>himu23's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Himanshu Shete</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <span id="element"></span>
+                <div class="codechef-rating">
+                    <b>CodeChef rating: 1158</b>
+                </div>
+                <div class="socials">
+                    <a href="https://www.codechef.com/users/himanshushete" target="_blank"> <img src="codechef.jpg"
+                            alt="codechef"></a>
+                    <a href="https://github.com/himu23" target="_blank"> <img src="github.jpg"
+                            alt="github"></a>
+                    <a href="https://www.instagram.com/himanshu_shete/" target="_blank"> <img src="instagram.jpg"
+                            alt="instagram"></a>
+                    <a href="https://www.linkedin.com/in/himanshete/" target="_blank"> <img src="linkedin.jpg"
+                            alt="linkedin"></a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <div class="image-container">
+                    <img src="20240125_150154.jpg" alt="me1">
+                    <img src="20240125_005905.jpg" alt="me2">
+                    <img src="20240125_010140.jpg" alt="me3">
+                    <button id="prevBtn">&lt; Previous</button>
+                    <button id="nextBtn">Next &gt;</button>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection" id="hobbies">
+            <h1>Hobbies</h1>
+            <span class="text-gray">things i like to do in my free time other than scrolling reels</span>
+        </section>
+        <section class="hobbies-container">
+            <div class="hobby">
+                <h2><a href="anime.html" target="_blank">watching ANIME</a></h2>
+                <img src="anime.jpg" alt="anime img">
+            </div>
+
+            <div class="hobby">
+                <h2><a href="singing.html" target="_blank">Singing</a></h2>
+                <img src="singing.jpg" alt="singing img">
+            </div>
+
+            <div class="hobby">
+                <h2><a href="chess.html" target="_blank">Chess</a></h2>
+                <img src="chess.jpg" alt="chess">
+            </div>
+        </section>
+        <hr>
+        <section class="thirdSection" id="works">
+            <h1>Works</h1>
+            <span class="text-gray">My Achievements</span>
+            <h2>Projects</h2>
+            <h3>Baby Snake</h3>
+            <p>Recently I made a simple web game in the Scrribler JS Hackthon organised by wncc.</p>
+            <p><a href="https://github.com/himu23/babysnake" target="_blank">GitHub Link</a></p>
+            <h3>AI img generation</h3>
+            <p>I had generated some images through stable diffusion + controlnet(qr code monster) the link for the same are <a href="User
+                https://drive.google.com/drive/folders/1wJsuK0dNBJoHuFx5jPFfebeMKgTW7NrM"target="_blank">HERE</a></p>
+            <h2>Certificates</h2>
+            <h3>DSA</h3>
+            <p>I Just Love to do DSA in C++. That's my biggest hobby. I am currently on a 36 day streak on Codechef with
+                a rating of 1138.Through this journey i have earned many certificates. The Google Drive link of them is
+                <a href="https://drive.google.com/drive/folders/1FYu-ft_ibO_FN-eFDkzFjPFcX8Dpx3po?usp=drive_link"
+                    target="_blank">HERE</a>
+            </p>
+        </section>
+        <hr>
+        <section class="fourthSection" id="contact">
+            <h1>Contact Me</h1>
+            <form action="send_email.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <hr>
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<b>Hello World!! My name is <span class="purple">Himanshu Shete</span>.<div>and I am currently pursuing my Bachelors Degree in Civil Engineering from <span class="purple">IIT Bombay</span>,expected to graduate in 2027.</div><b>'],
+            typeSpeed: 10,
+        });
+    </script>
+</body>
+
+</html>
