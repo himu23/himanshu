@@ -75,6 +75,7 @@ main hr {
     font-size: 2rem;
     margin: 20vh 0;
     position: relative;
+    text-align: center;
 }
 
 #element {
@@ -89,8 +90,8 @@ main hr {
     margin-bottom: 10px;
     position: absolute;
     top: 50%;
-    left: 0;
-    margin-top: 1px;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .codechef-rating img {
@@ -101,12 +102,12 @@ main hr {
 .socials {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 20px;
     position: absolute;
-    top: 60%;
-    left: 0;
-    margin-top: 1px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .socials a {
@@ -177,7 +178,6 @@ main hr {
     display: flex;
     overflow-x: auto;
     margin-top: auto;
-    margin-left: 23vw;
 }
 
 .hobby {
